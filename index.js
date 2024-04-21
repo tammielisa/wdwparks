@@ -1,3 +1,7 @@
+const cors = require('cors');
+
+app.use(cors());
+
 const baseurl = 'https://api.themeparks.wiki/preview/parks/WaltDisneyWorld';
 const attractions = [
     { name: "AnimalKingdom", park: "Animal Kingdom" },
